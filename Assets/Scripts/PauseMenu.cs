@@ -31,7 +31,7 @@ public class PauseMenu : MainMenu
     public void Resume()
     {
         pauseMenu.SetActive(false);
-        Time.timeScale = 1.0f;
+        Time.timeScale = 1f;
         isGamePaused = false;
     }
 
