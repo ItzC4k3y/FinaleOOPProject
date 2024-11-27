@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MainMenu
+public class PauseMenu : MainUi
 {
     public static bool isGamePaused = false;
 
