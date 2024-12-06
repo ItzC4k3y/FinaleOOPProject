@@ -54218,6 +54218,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4176009986428430016, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
       propertyPath: velocity.x
       value: -5
