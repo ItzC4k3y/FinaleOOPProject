@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Enemies : Characters
+public class Enemies : Characters
 {
     [SerializeField] private float damageOnHit;
-
-    public abstract void Behavior();
+    [SerializeField] private Vector2 velocity;
+    [SerializeField] private Transform[] movePoint;
 
     private void Start()
     {
         Behavior();
     }
-
+    private void FixedUpdate()
+    {
+        Behavior();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Player player = collision.gameObject.GetComponent<Player>();
@@ -20,8 +23,30 @@ public abstract class Enemies : Characters
         {
             player.TakeDamage(damageOnHit);
         }
+
+    }
+    public void Behavior()
+    {
+        rb.MovePosition(rb.position + velocity * Time.deltaTime);
+
+        if (rb.position.x <= movePoint[0].position.x && velocity.x < 0)
+        {
+            FlipCharacter();
+        }
+
+        else if (rb.position.x >= movePoint[1].position.x && velocity.x > 0)
+        {
+            FlipCharacter();
+        }
     }
 
+    public void FlipCharacter()
+    {
+        velocity *= -1;
 
+        Vector2 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
 
 }

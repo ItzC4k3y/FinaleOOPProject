@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : Characters
 {
     [SerializeField] HealthBar PlayerHealthBar;
-
     public override void TakeDamage(float takeDamage)
     {
         base.TakeDamage(takeDamage);
