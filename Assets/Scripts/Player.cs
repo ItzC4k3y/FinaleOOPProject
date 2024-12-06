@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Player : Characters
 {
-    [SerializeField] HealthBar PlayerHealthBar;
+    [SerializeField] public HealthBar PlayerHealthBar;
+
     public override void TakeDamage(float takeDamage)
     {
         base.TakeDamage(takeDamage);
         PlayerHealthBar.UpdateHp(Health);
     }
-
     private void Start()   
     {
-        Init(100);
+        Init(60);
         PlayerHealthBar.InitHpBar(Health);
     }
 }
