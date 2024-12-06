@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Characters
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] HealthBar PlayerHealthBar;
+
+    private void Start()
     {
-        
+        Init(100);
+        PlayerHealthBar.InitHpBar(Health);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
