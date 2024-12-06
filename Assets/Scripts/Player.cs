@@ -6,10 +6,17 @@ public class Player : Characters
 {
     [SerializeField] HealthBar PlayerHealthBar;
 
-    private void Start()
+    public override void TakeDamage(float takeDamage)
+    {
+        base.TakeDamage(takeDamage);
+        PlayerHealthBar.UpdateHp(Health);
+    }
+
+    private void Start()   
     {
         Init(100);
         PlayerHealthBar.InitHpBar(Health);
     }
-
 }
+
+

@@ -5,9 +5,6 @@ using UnityEngine;
 public abstract class Enemies : Characters
 {
     [SerializeField] private float damageOnHit;
-    public Characters PlayerHealthBar;
-
-    public float DamageOnHit { get; set; }
 
     public abstract void Behavior();
 
@@ -16,11 +13,15 @@ public abstract class Enemies : Characters
         Behavior();
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        Player player = collision.gameObject.GetComponent<Player>();
+        if( player != null ) 
         {
-            PlayerHealthBar.Health -= DamageOnHit;
+            player.TakeDamage(damageOnHit);
         }
     }
+
+
+
 }

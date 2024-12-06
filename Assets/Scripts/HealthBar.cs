@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
 
     public void InitHpBar(float hp)
     {
+        Debug.Log($"HealthBarInit {hp}");
         healthBarSlider.maxValue = hp;
         healthBarSlider.value = hp;
     }
@@ -16,6 +17,7 @@ public class HealthBar : MonoBehaviour
     public void UpdateHp(float hp)
     {
         healthBarSlider.value = hp;
+        Debug.Log($"HealthBar : {hp}");
     }
 
     public void HealthBarFlip()
