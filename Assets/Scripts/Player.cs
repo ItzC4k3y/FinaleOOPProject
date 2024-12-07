@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : Characters
 {
-    [SerializeField] public HealthBar PlayerHealthBar;
+    [SerializeField] private HealthBar playerHealthBar;
     [SerializeField] private GameObject gameOverUI;
 
     public override void TakeDamage(float takeDamage)
@@ -15,12 +15,12 @@ public class Player : Characters
             Destroy(gameObject);
             gameOverUI.SetActive(true);
         }
-        PlayerHealthBar.UpdateHp(Health);
+        playerHealthBar.UpdateHp(Health);
     }
     private void Start()   
     {
         Init(60);
-        PlayerHealthBar.InitHpBar(Health);
+        playerHealthBar.InitHpBar(Health);
     }
 }
 
