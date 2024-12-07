@@ -2374,6 +2374,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6350621626537232254, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 1181538744}
     - target: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
       propertyPath: velocity.x
       value: -5
@@ -9828,6 +9832,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &253697535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+  m_PrefabInstance: {fileID: 718971437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4f33322d2b7749a809a44b4476b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &258209360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10384,6 +10399,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759931458956769841, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 267391995}
     - target: {fileID: 1324085964089812753, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 74.159996
@@ -10463,7 +10482,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 0}
   rb: {fileID: 267391994}
   damageOnHit: 20
   velocity: {x: -4, y: 0}
@@ -17166,6 +17184,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759931458956769841, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 458962190}
     - target: {fileID: 1324085964089812753, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.07
@@ -17245,7 +17267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 0}
   rb: {fileID: 458962189}
   damageOnHit: 20
   velocity: {x: -4, y: 0}
@@ -27859,6 +27880,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6350621626537232254, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 253697535}
     - target: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
       propertyPath: velocity.x
       value: -5
@@ -30677,6 +30702,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759931458956769841, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 789560749}
     - target: {fileID: 1324085964089812753, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.06
@@ -30756,7 +30785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 0}
   rb: {fileID: 789560748}
   damageOnHit: 20
   velocity: {x: -4, y: 0}
@@ -37337,6 +37365,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &938045228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+  m_PrefabInstance: {fileID: 1819220498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4f33322d2b7749a809a44b4476b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &938105698
 GameObject:
   m_ObjectHideFlags: 0
@@ -42199,6 +42238,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1046223548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+  m_PrefabInstance: {fileID: 1091813612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4f33322d2b7749a809a44b4476b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1046316765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43370,6 +43420,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6350621626537232254, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 1046223548}
     - target: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
       propertyPath: velocity.x
       value: -5
@@ -47838,6 +47892,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1181538744 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+  m_PrefabInstance: {fileID: 65428191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4f33322d2b7749a809a44b4476b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1183059755
 GameObject:
   m_ObjectHideFlags: 0
@@ -55345,6 +55410,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759931458956769841, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 1346090573}
     - target: {fileID: 1324085964089812753, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 103.39
@@ -55424,7 +55493,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 0}
   rb: {fileID: 1346090572}
   damageOnHit: 20
   velocity: {x: -4, y: 0}
@@ -69393,6 +69461,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759931458956769841, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 1658754996}
     - target: {fileID: 1324085964089812753, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.75474316
@@ -69472,7 +69544,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 0}
   rb: {fileID: 1658754995}
   damageOnHit: 20
   velocity: {x: -4, y: 0}
@@ -76283,6 +76354,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6350621626537232254, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 938045228}
     - target: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
       propertyPath: velocity.x
       value: -5
@@ -77497,6 +77572,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759931458956769841, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 1841182256}
     - target: {fileID: 1324085964089812753, guid: 3290f74214d450a4db6cd0c4d1985ca2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.895256
@@ -77576,7 +77655,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 0}
   rb: {fileID: 1841182255}
   damageOnHit: 20
   velocity: {x: -4, y: 0}
@@ -78222,6 +78300,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17d2a005a5bb89247a6f907d7a9bb7e7, type: 3}
+--- !u!114 &1853746527 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+  m_PrefabInstance: {fileID: 1998819371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4f33322d2b7749a809a44b4476b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1855796946
 GameObject:
   m_ObjectHideFlags: 0
@@ -81198,9 +81287,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  gameOverUI: {fileID: 567278634}
   rb: {fileID: 1934690493}
   PlayerHealthBar: {fileID: 532323722}
+  gameOverUI: {fileID: 567278634}
 --- !u!70 &1934690492
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -83320,6 +83409,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6350621626537232254, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
+      propertyPath: enemies
+      value: 
+      objectReference: {fileID: 1853746527}
     - target: {fileID: 8760200034015334783, guid: 85e9bd482767be646b669af1c9a4c2af, type: 3}
       propertyPath: velocity.x
       value: -5

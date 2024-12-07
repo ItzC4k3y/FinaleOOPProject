@@ -10,6 +10,7 @@ public class Enemies : Characters
 
     private void Start()
     {
+        Init(100);
         Behavior();
     }
     private void FixedUpdate()
@@ -23,7 +24,16 @@ public class Enemies : Characters
         {
             player.TakeDamage(damageOnHit);
         }
+    }
 
+    public override void TakeDamage(float takeDamage)
+    {
+        Debug.Log($"enemy take damage");
+        base.TakeDamage(takeDamage);
+        if (IsDead())
+        {
+            Destroy(gameObject);
+        }
     }
     public void Behavior()
     {

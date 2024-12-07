@@ -7,10 +7,10 @@ public class EnemyHeadCheck : MonoBehaviour
     [SerializeField] Rigidbody2D player;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<EnemyHeadCheck>())
+        if (collision.GetComponent<HeadCheck>())
         {
             player.velocity = new Vector2(player.velocity.x, 0f);
-            player.AddForce(Vector2.up * 300f);
+            player.AddForce(Vector2.up * 600f);
         }
     }
 }

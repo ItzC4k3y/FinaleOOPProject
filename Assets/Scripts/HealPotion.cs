@@ -13,15 +13,14 @@ public class HealPotion : PickUps
         base.OnTriggerEnter2D(collision);
 
         if (player.Health >= 60)
-            { 
+        { 
             player.Health = 60; 
-            }
+        }
 
         else
         {
             player.Health += heal;
             player.PlayerHealthBar.UpdateHp(player.Health);
-            
         }
     }
   
