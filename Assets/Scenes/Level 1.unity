@@ -53819,6 +53819,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1739923351032571251, guid: 94e5b6d4efba4de40b86d6655f5725e7, type: 3}
+      propertyPath: PauseMenuUi
+      value: 
+      objectReference: {fileID: 5956249663134011606}
     - target: {fileID: 4006490257281838216, guid: 94e5b6d4efba4de40b86d6655f5725e7, type: 3}
       propertyPath: m_Type
       value: 1
@@ -53995,6 +53999,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsOver: {fileID: 1183693644}
+--- !u!1 &5956249663134011606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6465535271526982295, guid: 94e5b6d4efba4de40b86d6655f5725e7, type: 3}
+  m_PrefabInstance: {fileID: 5956249663134011601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5956249663134011609
 MonoBehaviour:
   m_ObjectHideFlags: 0
