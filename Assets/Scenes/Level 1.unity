@@ -47390,12 +47390,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'W A S D = Move
+  m_text: 'A D = Move
 
     Space = Jump
 
-    Jump onto the enemy''s head = Pop
-    them!
+    Jump onto the enemy''s head = Pop them!
 
 '
   m_isRightToLeft: 0
