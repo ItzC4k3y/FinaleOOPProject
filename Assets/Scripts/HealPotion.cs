@@ -23,5 +23,4 @@ public class HealPotion : PickUps
             player.PlayerHealthBar.UpdateHp(player.Health);
         }
     }
-  
 }

@@ -29410,6 +29410,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1739923351032571251, guid: 94e5b6d4efba4de40b86d6655f5725e7, type: 3}
+      propertyPath: PauseMenuUi
+      value: 
+      objectReference: {fileID: 1955867625}
     - target: {fileID: 4006490257281838216, guid: 94e5b6d4efba4de40b86d6655f5725e7, type: 3}
       propertyPath: m_Type
       value: 1
@@ -82178,6 +82182,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 685814124841632398, guid: 49b69263b02944b46841ec937b50a8d2, type: 3}
   m_PrefabInstance: {fileID: 1955612067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1955867625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6465535271526982295, guid: 94e5b6d4efba4de40b86d6655f5725e7, type: 3}
+  m_PrefabInstance: {fileID: 759946695}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1959386497
 PrefabInstance:
