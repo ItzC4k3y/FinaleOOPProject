@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MainUi
 {
-    public static bool isGamePaused = false;
+    public bool IsGamePaused = false;
 
-    public GameObject pauseMenu;
+    public GameObject PauseMenuUi;
 
     void Update()
     {
@@ -16,7 +16,7 @@ public class PauseMenu : MainUi
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isGamePaused) 
+            if (IsGamePaused) 
             {
                 Resume();
             }
@@ -30,15 +30,15 @@ public class PauseMenu : MainUi
 
     public void Resume()
     {
-        pauseMenu.SetActive(false);
+        PauseMenuUi.SetActive(false);
         Time.timeScale = 1f;
-        isGamePaused = false;
+        IsGamePaused = false;
     }
 
     public void Pause()
     {
-        pauseMenu.SetActive(true);
+        PauseMenuUi.SetActive(true);
         Time.timeScale = 0f;
-        isGamePaused = true;
+        IsGamePaused = true;
     }
 }
