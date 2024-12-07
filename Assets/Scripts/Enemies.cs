@@ -28,7 +28,6 @@ public class Enemies : Characters
 
     public override void TakeDamage(float takeDamage)
     {
-        Debug.Log($"enemy take damage");
         base.TakeDamage(takeDamage);
         if (IsDead())
         {

@@ -11,6 +11,4 @@ public class LevelCompleted : MainUi
         Time.timeScale = 0f;
         LevelFinished.SetActive(true);
     }
-
-
 }
